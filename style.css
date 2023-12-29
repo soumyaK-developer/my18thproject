@@ -25,6 +25,9 @@ h2 {
     font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+#form {
+    display: flex;
+}
 #add_input {
     font-size: 1.3rem;
     padding: 14px 120px 15px 5px;
@@ -88,4 +91,13 @@ ul li.checked::before {
 .close:hover{
     background-color: #fe0101;
     color: white;
+}
+
+@media screen and (max-width:1000px) {
+    #form {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
 }

@@ -100,4 +100,8 @@ ul li.checked::before {
         align-items: center;
         gap: 10px;
     }
+    #add_input {
+        max-width: 50vw;
+    }
+
 }

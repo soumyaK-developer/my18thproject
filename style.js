@@ -40,7 +40,7 @@ function MYfunction() {
         alert("you have to enter something for task!")
     }
     else {
-        document.getElementById("todoList").appendChild(li)
+        document.getElementById("todoList").prepend(li)
     }
     document.getElementById("add_input").value = ""
 
